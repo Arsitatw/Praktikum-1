@@ -167,7 +167,8 @@ int main() {
 }
 ```
 Outputnya :
-![alt text](?raw=true)
+
+![alt text](https://github.com/Arsitatw/Praktikum-1/blob/master/Screenshot%202024-03-21%20235623.png?raw=true)
 
 ## 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 
@@ -221,6 +222,10 @@ int main() {
     return 0;
 }
 ```
+Outputnya :
+
+![alt text](?raw=true)
+
 
 ## 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
 
@@ -250,6 +255,9 @@ int main() {
 }
 ```
 
+Outputnya :
+
+![alt text](?raw=true)
 
 # Referensi
 [1] Afrizal Zein Emi Sita Eriana, Algoritma dan Struktur Data. Responsitory unpam, 2022.
