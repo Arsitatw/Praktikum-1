@@ -224,7 +224,7 @@ int main() {
 ```
 Outputnya :
 
-![alt text](?raw=true)
+![alt text](https://github.com/Arsitatw/Praktikum-1/blob/master/Screenshot%202024-03-22%20000541.png?raw=true)
 
 
 ## 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
@@ -257,7 +257,7 @@ int main() {
 
 Outputnya :
 
-![alt text](?raw=true)
+![alt text](https://github.com/Arsitatw/Praktikum-1/blob/master/Screenshot%202024-03-22%20000627.png?raw=true)
 
 # Referensi
-[1] Afrizal Zein Emi Sita Eriana, Algoritma dan Struktur Data. Responsitory unpam, 2022.
+[1] Afrizal Zein Emi Sita Eriana, Algoritma dan Struktur Data. Responsitory Unpam, 2022.
