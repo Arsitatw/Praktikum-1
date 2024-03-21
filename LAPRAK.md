@@ -93,7 +93,34 @@ int main()
     return 0;
 }
 ```
-Kode diatas merupakan tipe data abstrak yaitu struck 
+Kode diatas merupakan tipe data abstrak yaitu struck. Pada kode tersebut menggunakan struct Mahasiswa yang memuat tiga nilai yaitu name, addres dengan tipe data character dan age dengan tipe data integer. Lalu terdapat const pada name dan addres untuk menyatakan objek atau variable. Setelahnya digunakan Mahasiswa mhs1, mhs2 untuk medeklarasikan dua variable bertipe Mahasiswa yaitu mhs1 dan mhs2. Menggunakan objek cout untuk mencetak output.
+
+## Tipe Data Koleksi
+```C++
+#include <iostream>
+#include <array>
+using namespace std;
+
+int main() 
+{
+    
+    int nilai[5];
+    nilai[0] = 20;
+    nilai[1] = 25;
+    nilai[2] = 30;
+    nilai[3] = 6;
+    nilai[4] = 3;
+
+    
+    cout << "Isi array pertama : " << nilai[0] << endl;
+    cout << "Isi array kedua : " << nilai[1] << endl;
+    cout << "Isi array ketiga : " << nilai[2] << endl;
+    cout << "Isi array keempat : " << nilai[3] << endl;
+    cout << "Isi array kelima : " << nilai[4] << endl;
+    return 0;
+}
+```
+
 
 # Referensi
 [1] Afrizal Zein Emi Sita Eriana, Algoritma dan Struktur Data. Responsitory unpam, 2022.
