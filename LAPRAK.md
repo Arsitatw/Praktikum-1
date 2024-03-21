@@ -120,6 +120,133 @@ int main()
     return 0;
 }
 ```
+Menggunakan using namespace std; agar tidak perlu menggunakan std:: setiap menambahkan fungsinya. Pendeklarasian menggunakan array bernama nilai dengan panjang 5. Mengisi nilai nilai ke dalam array nilai menggunkaan indeks array. Kemudian untuk menampilkan nilai nilai dari array nilai menggunakan objek cout dan operator <<.
+
+# Unguided
+## 1.  Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif
+
+```C++
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+// Fungsi untuk menghitung luas segitiga
+double hitungLuasSegitiga(double alas, double tinggi) {
+    return 0.5 * alas * tinggi;
+}
+
+// Fungsi untuk menghitung keliling segitiga
+double hitungKelilingSegitiga(double sisi1, double sisi2, double sisi3) {
+    return sisi1 + sisi2 + sisi3;
+}
+
+int main() {
+    double alas, tinggi, sisi1, sisi2, sisi3;
+
+    // Masukkan panjang alas dan tinggi segitiga
+    cout << "Masukkan panjang alas segitiga: ";
+    cin >> alas;
+    cout << "Masukkan tinggi segitiga: ";
+    cin >> tinggi;
+
+    // Masukkan panjang sisi-sisi segitiga
+    cout << "Masukkan panjang sisi pertama segitiga: ";
+    cin >> sisi1;
+    cout << "Masukkan panjang sisi kedua segitiga: ";
+    cin >> sisi2;
+    cout << "Masukkan panjang sisi ketiga segitiga: ";
+    cin >> sisi3;
+
+    // Hitung dan tampilkan luas segitiga
+    cout << "Luas segitiga: " << hitungLuasSegitiga(alas, tinggi) << endl;
+
+    // Hitung dan tampilkan keliling segitiga
+    cout << "Keliling segitiga: " << hitungKelilingSegitiga(sisi1, sisi2, sisi3) << endl;
+
+    return 0;
+}
+```
+
+## 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
+
+```C++
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Deklarasi struct Mahasiswa
+struct MahasiswaStruct {
+    string nama;
+    int umur;
+    
+    // Method untuk menampilkan data mahasiswa
+    string tampilkanData() {
+        string data = "Nama : " + nama + "\n";
+        data += "Umur : " + to_string(umur) + "\n";
+        return data;
+    }
+};
+
+// Deklarasi class Mahasiswa
+class MahasiswaClass {
+private:
+    string nama;
+    int umur;
+    
+public:
+    // Constructor untuk inisialisasi objek
+    MahasiswaClass(string n, int u) : nama(n), umur(u) {}
+
+    // Method untuk menampilkan data mahasiswa
+    string tampilkanData() {
+        string data = "Nama : " + nama + "\n";
+        data += "Umur : " + to_string(umur) + "\n";
+        return data;
+    }
+};
+
+int main() {
+    // Menggunakan struct
+    MahasiswaStruct mhs1Struct;
+    mhs1Struct.nama = " Tata ";
+    mhs1Struct.umur = 18;
+    cout << mhs1Struct.tampilkanData();
+
+    // Menggunakan class
+    MahasiswaClass mhs1Class(" Tata ", 18);
+    cout << mhs1Class.tampilkanData();
+
+    return 0;
+}
+```
+
+## 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map
+
+```C++
+#include <iostream>
+#include <map>
+#include <string>
+
+using namespace std;
+
+int main() {
+    
+    map<string, int> mahasiswa;
+
+    
+    mahasiswa["Tata"] = 18;
+    mahasiswa["Lika"] = 18;
+    mahasiswa["Ana"] = 19;
+
+    
+    cout << "Data Mahasiswa:\n";
+    for (auto it = mahasiswa.begin(); it != mahasiswa.end(); ++it) {
+        cout << "Nama: " << it->first << ", Umur: " << it->second << endl;
+    }
+
+    return 0;
+}
+```
 
 
 # Referensi
