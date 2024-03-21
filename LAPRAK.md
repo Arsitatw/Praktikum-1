@@ -166,6 +166,8 @@ int main() {
     return 0;
 }
 ```
+Outputnya :
+![alt text](?raw=true)
 
 ## 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 
